@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A594A2F57251E78D0C5F988 /* Pods_SoundcloudlooperSWIFTUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E474B6AB43F4ECB4A0F0F8 /* Pods_SoundcloudlooperSWIFTUI.framework */; };
+		9C3C84C5245E010C00347F4D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C84C4245E010C00347F4D /* PlayerView.swift */; };
+		9C3C84C7245E030D00347F4D /* AVPlayerViewInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C84C6245E030D00347F4D /* AVPlayerViewInit.swift */; };
+		9C7CB5F5246F897D00CB69FA /* activityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7CB5F4246F897D00CB69FA /* activityIndicator.swift */; };
+		9CBFEB932467578F0064B833 /* sliderRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBFEB922467578F0064B833 /* sliderRange.swift */; };
+		9CDCD64D245D20900073C6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDCD64C245D20900073C6C6 /* AppDelegate.swift */; };
+		9CDCD64F245D20900073C6C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDCD64E245D20900073C6C6 /* SceneDelegate.swift */; };
+		9CDCD651245D20900073C6C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDCD650245D20900073C6C6 /* ContentView.swift */; };
+		9CDCD653245D20920073C6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDCD652245D20920073C6C6 /* Assets.xcassets */; };
+		9CDCD656245D20920073C6C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDCD655245D20920073C6C6 /* Preview Assets.xcassets */; };
+		9CDCD659245D20920073C6C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDCD657245D20920073C6C6 /* LaunchScreen.storyboard */; };
+		9CDCD661245D25F70073C6C6 /* scData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDCD660245D25F70073C6C6 /* scData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22FCE590E7D9807F0656CE4F /* Pods-SoundcloudlooperSWIFTUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundcloudlooperSWIFTUI.debug.xcconfig"; path = "Target Support Files/Pods-SoundcloudlooperSWIFTUI/Pods-SoundcloudlooperSWIFTUI.debug.xcconfig"; sourceTree = "<group>"; };
+		33E474B6AB43F4ECB4A0F0F8 /* Pods_SoundcloudlooperSWIFTUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundcloudlooperSWIFTUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AA20A92AF26A7A963930AB /* Pods-SoundcloudlooperSWIFTUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundcloudlooperSWIFTUI.release.xcconfig"; path = "Target Support Files/Pods-SoundcloudlooperSWIFTUI/Pods-SoundcloudlooperSWIFTUI.release.xcconfig"; sourceTree = "<group>"; };
+		9C3C84C4245E010C00347F4D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		9C3C84C6245E030D00347F4D /* AVPlayerViewInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewInit.swift; sourceTree = "<group>"; };
+		9C7CB5F4246F897D00CB69FA /* activityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activityIndicator.swift; sourceTree = "<group>"; };
+		9CBFEB922467578F0064B833 /* sliderRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sliderRange.swift; sourceTree = "<group>"; };
+		9CDCD649245D20900073C6C6 /* SoundcloudlooperSWIFTUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundcloudlooperSWIFTUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDCD64C245D20900073C6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CDCD64E245D20900073C6C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9CDCD650245D20900073C6C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9CDCD652245D20920073C6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CDCD655245D20920073C6C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CDCD658245D20920073C6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CDCD65A245D20920073C6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CDCD660245D25F70073C6C6 /* scData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CDCD646245D20900073C6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A594A2F57251E78D0C5F988 /* Pods_SoundcloudlooperSWIFTUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F21B34109DF472394B8EAE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33E474B6AB43F4ECB4A0F0F8 /* Pods_SoundcloudlooperSWIFTUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8532D6C1A1D3CD5F00C16B33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22FCE590E7D9807F0656CE4F /* Pods-SoundcloudlooperSWIFTUI.debug.xcconfig */,
+				98AA20A92AF26A7A963930AB /* Pods-SoundcloudlooperSWIFTUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9CDCD640245D20900073C6C6 = {
+			isa = PBXGroup;
+			children = (
+				9CDCD64B245D20900073C6C6 /* SoundcloudlooperSWIFTUI */,
+				9CDCD64A245D20900073C6C6 /* Products */,
+				8532D6C1A1D3CD5F00C16B33 /* Pods */,
+				7F21B34109DF472394B8EAE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CDCD64A245D20900073C6C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CDCD649245D20900073C6C6 /* SoundcloudlooperSWIFTUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CDCD64B245D20900073C6C6 /* SoundcloudlooperSWIFTUI */ = {
+			isa = PBXGroup;
+			children = (
+				9CDCD64C245D20900073C6C6 /* AppDelegate.swift */,
+				9CDCD64E245D20900073C6C6 /* SceneDelegate.swift */,
+				9CDCD650245D20900073C6C6 /* ContentView.swift */,
+				9CDCD660245D25F70073C6C6 /* scData.swift */,
+				9C3C84C6245E030D00347F4D /* AVPlayerViewInit.swift */,
+				9CBFEB922467578F0064B833 /* sliderRange.swift */,
+				9C3C84C4245E010C00347F4D /* PlayerView.swift */,
+				9CDCD652245D20920073C6C6 /* Assets.xcassets */,
+				9CDCD657245D20920073C6C6 /* LaunchScreen.storyboard */,
+				9CDCD65A245D20920073C6C6 /* Info.plist */,
+				9CDCD654245D20920073C6C6 /* Preview Content */,
+				9C7CB5F4246F897D00CB69FA /* activityIndicator.swift */,
+			);
+			path = SoundcloudlooperSWIFTUI;
+			sourceTree = "<group>";
+		};
+		9CDCD654245D20920073C6C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9CDCD655245D20920073C6C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CDCD648245D20900073C6C6 /* SoundcloudlooperSWIFTUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDCD65D245D20920073C6C6 /* Build configuration list for PBXNativeTarget "SoundcloudlooperSWIFTUI" */;
+			buildPhases = (
+				C541CF33DDB44B5A370E0203 /* [CP] Check Pods Manifest.lock */,
+				9CDCD645245D20900073C6C6 /* Sources */,
+				9CDCD646245D20900073C6C6 /* Frameworks */,
+				9CDCD647245D20900073C6C6 /* Resources */,
+				43E81EBEEA4731E49E2FD588 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundcloudlooperSWIFTUI;
+			packageProductDependencies = (
+			);
+			productName = SoundcloudlooperSWIFTUI;
+			productReference = 9CDCD649245D20900073C6C6 /* SoundcloudlooperSWIFTUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CDCD641245D20900073C6C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Tavo;
+				TargetAttributes = {
+					9CDCD648245D20900073C6C6 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 9CDCD644245D20900073C6C6 /* Build configuration list for PBXProject "SoundcloudlooperSWIFTUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CDCD640245D20900073C6C6;
+			packageReferences = (
+			);
+			productRefGroup = 9CDCD64A245D20900073C6C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CDCD648245D20900073C6C6 /* SoundcloudlooperSWIFTUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CDCD647245D20900073C6C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDCD659245D20920073C6C6 /* LaunchScreen.storyboard in Resources */,
+				9CDCD656245D20920073C6C6 /* Preview Assets.xcassets in Resources */,
+				9CDCD653245D20920073C6C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43E81EBEEA4731E49E2FD588 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundcloudlooperSWIFTUI/Pods-SoundcloudlooperSWIFTUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundcloudlooperSWIFTUI/Pods-SoundcloudlooperSWIFTUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundcloudlooperSWIFTUI/Pods-SoundcloudlooperSWIFTUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C541CF33DDB44B5A370E0203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoundcloudlooperSWIFTUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CDCD645245D20900073C6C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3C84C7245E030D00347F4D /* AVPlayerViewInit.swift in Sources */,
+				9CDCD64D245D20900073C6C6 /* AppDelegate.swift in Sources */,
+				9CBFEB932467578F0064B833 /* sliderRange.swift in Sources */,
+				9C3C84C5245E010C00347F4D /* PlayerView.swift in Sources */,
+				9C7CB5F5246F897D00CB69FA /* activityIndicator.swift in Sources */,
+				9CDCD64F245D20900073C6C6 /* SceneDelegate.swift in Sources */,
+				9CDCD651245D20900073C6C6 /* ContentView.swift in Sources */,
+				9CDCD661245D25F70073C6C6 /* scData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CDCD657245D20920073C6C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CDCD658245D20920073C6C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CDCD65B245D20920073C6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CDCD65C245D20920073C6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CDCD65E245D20920073C6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FCE590E7D9807F0656CE4F /* Pods-SoundcloudlooperSWIFTUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundcloudlooperSWIFTUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z8M972977;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SoundcloudlooperSWIFTUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tavo.SoundcloudlooperSWIFTUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CDCD65F245D20920073C6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AA20A92AF26A7A963930AB /* Pods-SoundcloudlooperSWIFTUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundcloudlooperSWIFTUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z8M972977;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SoundcloudlooperSWIFTUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tavo.SoundcloudlooperSWIFTUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CDCD644245D20900073C6C6 /* Build configuration list for PBXProject "SoundcloudlooperSWIFTUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDCD65B245D20920073C6C6 /* Debug */,
+				9CDCD65C245D20920073C6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDCD65D245D20920073C6C6 /* Build configuration list for PBXNativeTarget "SoundcloudlooperSWIFTUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDCD65E245D20920073C6C6 /* Debug */,
+				9CDCD65F245D20920073C6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CDCD641245D20900073C6C6 /* Project object */;
+}

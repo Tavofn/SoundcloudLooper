@@ -1,0 +1,6 @@
+framework module Pods_SoundcloudlooperSWIFTUI {
+  umbrella header "Pods-SoundcloudlooperSWIFTUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

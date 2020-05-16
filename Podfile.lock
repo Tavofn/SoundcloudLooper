@@ -1,0 +1,22 @@
+PODS:
+  - Kingfisher/Core (5.14.0)
+  - Kingfisher/SwiftUI (5.14.0):
+    - Kingfisher/Core
+  - RangeSeekSlider (1.8.0)
+
+DEPENDENCIES:
+  - Kingfisher/SwiftUI
+  - RangeSeekSlider
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - RangeSeekSlider
+
+SPEC CHECKSUMS:
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+  RangeSeekSlider: 650b11fa1edcb92e1e0ede797669d98622570fb5
+
+PODFILE CHECKSUM: 34ae449233afd3f66042d639d6ca9ab71b7a4442
+
+COCOAPODS: 1.9.1
