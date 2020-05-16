@@ -1,5 +1,3 @@
-SoundcloudLooperOfficial
-
 
 Utilizes Soundcloud's Json files to get song artwork, audiofile, etc
 
