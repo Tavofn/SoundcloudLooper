@@ -3,8 +3,8 @@ SoundcloudLooperOfficial
 
 Utilizes Soundcloud's Json files to get song artwork, audiofile, etc
 
-https://github.com/Tavofn/SoundcloudLooperOfficial/blob/master/SoundcloudlooperSWIFTUI/Assets.xcassets/IMG_8149.imageset/IMG_8149.jpeg
+![firstlooppresent](https://user-images.githubusercontent.com/29978587/82116180-66aa9800-972d-11ea-80bf-d7f408b46dbc.png)
 
 Slider is used for adjusting the start and end of loop
 
-https://github.com/Tavofn/SoundcloudLooperOfficial/blob/master/SoundcloudlooperSWIFTUI/Assets.xcassets/IMG_8150.imageset/IMG_8150.jpeg
+![secondlooperimage](https://user-images.githubusercontent.com/29978587/82116202-9063bf00-972d-11ea-96a4-3356dc3b8347.png)
